@@ -1,0 +1,18 @@
+<!-- Slider Start -->
+<section id="slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <div class="block">
+          <h1 class="animated fadeInUp text-uppercase">{{ .Site.Params.slider.title | safeHTML }}</h1>
+          <p class="animated fadeInUp">{{ .Site.Params.slider.subtitle | safeHTML }}</p>
+          <ul class="list-inline">
+            {{ range .Site.Params.slider.btn }}
+            <li><a href="{{ .url }}" class="btn btn-main animated fadeInUp">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

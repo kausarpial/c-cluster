@@ -1,0 +1,14 @@
+<!-- Call to action Start -->
+<section id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    {{ with .Site.Params.call.title }}<h2>{{ . }}</h2>{{ end }}
+                    {{ with .Site.Params.call.paragraph }}<p>{{ . }}</p>{{ end }}
+                    <a class="btn btn-main" href="{{ .Site.Params.call.btnURL }}">{{ .Site.Params.call.btnCaption }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

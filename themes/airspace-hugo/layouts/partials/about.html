@@ -1,0 +1,27 @@
+<!-- About Section Start -->
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+                <div class="block">
+                    <div class="section-title">
+                        <h2>{{ .Site.Params.about.title }}</h2>
+                    </div>
+                    <ul>
+                        {{ range .Site.Params.about.list }}
+                        <li>{{ .listText }}</li>
+                        {{ end }}
+                    </ul>
+                    {{ with .Site.Params.about.paragraph1 }}<p>{{ . | safeHTML }}</p>{{ end }}
+                    {{ with .Site.Params.about.paragraph2 }}<p>{{ . | safeHTML }}</p>{{ end }}
+                    <a href="{{ .Site.Params.about.btnURL }}" class="btn btn-main">{{ .Site.Params.about.btnText }}</a>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <div class="block">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jro4f-y-gHY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
