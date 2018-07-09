@@ -20,7 +20,7 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 5
     name = "News"
-    url = "/news"
+    url = "/blog"
   [[menu.header]]
     weight = 6
     name = "Videos"
@@ -72,8 +72,6 @@ theme = "airspace-hugo"
   [params.about]
     enable = true
     title = "CloudyCluster"
-    paragraph1 = "<strong>CloudyCluster</strong> eases the burden of creating an HPC or Big Data Infrastructure in the Cloud.  It has been aptly called a 'Mobile Web Driven Data Center in the Cloud.'"
-    paragraph2 = "<strong>CloudyCluster</strong> also allows you to collaborate in the Cloud with others by simply and easily tying to popular cloud collaboration platforms, enabling Virtual Organizations and the Long Tail of Computational Science and Cloud Based Cyberinfrastructure."
     btnText   = "Try Cloudycluster"
     btnURL    = "https://aws.amazon.com/marketplace/pp/B01M71ZWE5?qid=1527735309119&sr=0-1&ref_=srh_res_product_title"
 

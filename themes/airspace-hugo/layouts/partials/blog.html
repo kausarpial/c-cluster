@@ -1,0 +1,25 @@
+<section class="section blog">
+    <div class="container">
+        <div class="row">
+            <div class="section-title text-center">
+                {{ with .Site.Params.blog.title }}<h2>{{ . }}</h2>{{ end }}
+                {{ with .Site.Params.blog.subtitle }}<p>{{ . }}</p>{{ end }}
+            </div>
+        </div>
+        <div class="row">
+            {{ range first 3 .Data.Pages }}
+            <div class="col-md-4">
+                <article class="blog-post">
+                    {{ with .Params.image }}
+                    <img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
+                    <a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
+                    <p>
+                        {{ .Summary | truncate 250 }}
+                    </p>
+                    <a href="{{ .Permalink }}" class="btn btn-main">Read More</a>
+                </article>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

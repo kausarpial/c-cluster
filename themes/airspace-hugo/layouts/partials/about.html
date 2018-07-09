@@ -12,8 +12,6 @@
                         <li>{{ .listText }}</li>
                         {{ end }}
                     </ul>
-                    {{ with .Site.Params.about.paragraph1 }}<p>{{ . | safeHTML }}</p>{{ end }}
-                    {{ with .Site.Params.about.paragraph2 }}<p>{{ . | safeHTML }}</p>{{ end }}
                     <a href="{{ .Site.Params.about.btnURL }}" class="btn btn-main">{{ .Site.Params.about.btnText }}</a>
                 </div>
             </div>

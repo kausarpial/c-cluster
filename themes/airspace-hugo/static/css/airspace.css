@@ -89,6 +89,10 @@ a:active {
     color: #fff;
 }
 
+.section{
+  padding: 100px 0;
+}
+
 /*--
 	Header Start
 --*/
@@ -745,6 +749,28 @@ header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   padding: 40px 0px;
 }
+
+/* Blog */
+.blog-post{
+  margin-bottom: 50px;
+}
+
+.blog-post img{
+  margin-bottom: 15px;
+}
+.blog-post p{
+  margin: 15px 0 20px;
+}
+
+.post-title{
+  color: #655E7A;
+  font-size: 25px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
 /*---------------------------------------------
 					Contact Close
 -----------------------------------------------*/

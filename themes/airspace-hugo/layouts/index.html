@@ -34,6 +34,11 @@
 		{{ partial "testimonial.html" . }}
 	{{ end }}
 
+	{{ if .Site.Data.testimonial.enable }}
+		{{ partial "blog.html" . }}
+	{{ end }}
+
+
 	{{ partial "footer.html" . }}
 
 </body>
