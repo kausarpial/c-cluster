@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/blog/get-new-themes-on-themefisher/</loc>
+    <lastmod>2018-07-09T18:53:40+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/explore-new-fashoin-on-genim/</loc>
+    <lastmod>2018-07-09T18:50:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/use-hugo-for-faster-site-load/</loc>
+    <lastmod>2018-07-09T18:49:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/making-a-denim-statement/</loc>
+    <lastmod>2018-07-09T18:48:29+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/this-is-a-sample-text-post/</loc>
+    <lastmod>2018-07-09T18:47:32+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/two-way-wear-bright-shoes/</loc>
+    <lastmod>2018-07-09T18:41:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/how-wear-bright-shoes/</loc>
+    <lastmod>2018-07-09T18:23:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2018-07-09T18:19:56+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-07-09T18:53:40+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>/service/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/work/</loc>
+  </url>
+  
+</urlset>
