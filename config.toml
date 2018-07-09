@@ -1,5 +1,5 @@
 title = "CloudyCluster"
-baseURL = "https://www.example.com"
+baseURL = ""
 languageCode = "en-us"
 theme = "airspace-hugo"
 
