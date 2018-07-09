@@ -1,5 +1,5 @@
 title = "CloudyCluster"
-baseURL = ""
+baseURL = "https://inspiring-sinoussi-ea6b42.netlify.com/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
