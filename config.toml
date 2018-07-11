@@ -24,28 +24,28 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 6
     name = "Videos"
-    url = "/videos"
+    url = "/video"
 
   [[menu.footer]]
     weight = 1
-    name = "About us"
-    url = "#"
+    name = "Quickstart"
+    url = "http://docs.cloudycluster.com/"
   [[menu.footer]]
     weight = 2
-    name = "Contact us"
-    url = "#"
+    name = "Docs"
+    url = "http://docs.cloudycluster.com/"
   [[menu.footer]]
     weight = 3
-    name = "How it works"
-    url = "#"
+    name = "Support"
+    url = "/support"
   [[menu.footer]]
     weight = 4
-    name = "Blog"
-    url = "#"
+    name = "News"
+    url = "/blog"
   [[menu.footer]]
     weight = 5
-    name = "Terms"
-    url = "#"
+    name = "Videos"
+    url = "video"
 
 # The site's parameters
 [params]

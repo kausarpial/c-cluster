@@ -1,17 +1,31 @@
 enable  : true
 item  :
-  - title : CLOUDYCLUSTER OVERVIEW
-    description : CloudyCluster is a powerful Self-Service HPC solution for AWS.  This is a video overview.
+  - title : cloudycluster overview
+    description : >
+      CloudyCluster is a powerful Self-Service HPC solution for AWS.  This is a video overview.
     videoID     : XpiTGK_j6Jc
 
-  - title : CLOUDYCLUSTER OVERVIEW
-    description : CloudyCluster is a powerful Self-Service HPC solution for AWS.  This is a video overview.
-    videoID     : XpiTGK_j6Jc
+  - title : AWS marketplace launch
+    description : >
+      CloudyCluster is managed by a singe control instance that is launched from the AWS Marketplace as outlined by this video.
+    videoID     : UODcEpSM5m4
 
-  - title : CLOUDYCLUSTER OVERVIEW
-    description : CloudyCluster is a powerful Self-Service HPC solution for AWS.  This is a video overview.
-    videoID     : XpiTGK_j6Jc
+  - title : control instance setup
+    description : >
+      Once the control instance is running, this video shows how to finish the initial setup and demonstrates proper deletion
+    videoID     : Yk4XfMZTtDo
     
-  - title : CLOUDYCLUSTER OVERVIEW
-    description : CloudyCluster is a powerful Self-Service HPC solution for AWS.  This is a video overview.
-    videoID     : XpiTGK_j6Jc
+  - title : elastic HPC environment creation
+    description : >
+      Once the control instance is running, this video shows how to create an elastic HPC environment.
+    videoID     : b6-SaAwEwAM
+  
+  - title : pausing an elastic HPC environment
+    description : >
+      Once the elastic HPC environment is created, this video shows how to pause it and reduce the cost to only storage charges while you don't need to compute.
+    videoID     : uZk1Qkr0QBE
+
+  - title : enabling visual HPC
+    description : >
+      This video shows how to enable Visual HPC, automatic persistent VNC on a per user basis.
+    videoID     : dbrpBLkKBAU
