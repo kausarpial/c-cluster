@@ -79,7 +79,7 @@ theme = "airspace-hugo"
     enable = true
     title = "CLOUDYCLUSTER MILLION+ CORE RUN ON AWS"
     paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
-    btnCaption   = "Cloudycluster"
+    btnCaption   = "Try Cloudycluster"
     btnURL    = "https://aws.amazon.com/marketplace/pp/B01M71ZWE5?qid=1527735309119&sr=0-1&ref_=srh_res_product_title"
 
   [params.contact]
