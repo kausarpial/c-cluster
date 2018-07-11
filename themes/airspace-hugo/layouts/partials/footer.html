@@ -5,7 +5,8 @@
       <div class="col-md-12">
         <div class="footer-manu">
           <ul>
-            {{ range .Site.Menus.footer }}
+            <li><a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
+            {{ range .Site.Menus.header }}
             <li><a href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
           </ul>

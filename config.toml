@@ -26,27 +26,6 @@ theme = "airspace-hugo"
     name = "Videos"
     url = "/video"
 
-  [[menu.footer]]
-    weight = 1
-    name = "Quickstart"
-    url = "http://docs.cloudycluster.com/"
-  [[menu.footer]]
-    weight = 2
-    name = "Docs"
-    url = "http://docs.cloudycluster.com/"
-  [[menu.footer]]
-    weight = 3
-    name = "Support"
-    url = "/support"
-  [[menu.footer]]
-    weight = 4
-    name = "News"
-    url = "/blog"
-  [[menu.footer]]
-    weight = 5
-    name = "Videos"
-    url = "video"
-
 # The site's parameters
 [params]
 
