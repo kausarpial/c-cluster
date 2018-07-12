@@ -72,6 +72,7 @@ theme = "airspace-hugo"
 
   [params.feature]
     enable = true
+    title   = "A small title"
     content = "CloudyCluster is designed to look and feel similar to standard HPC environments, with login instances, scheduler, scratch storage and with the added capabilities of elastic compute instance creation. A group of researchers from Clemson University achieved a remarkable milestone while studying topic modeling, an important component of machine learning associated with natural language processing, breaking the record for creating the largest high-performance cluster by using more than 1,100,000 vCPUs on Amazon EC2 Spot Instances running in a single AWS region, accessed via CloudyCluster."
     image = "img/elastic_compute.png"
 
