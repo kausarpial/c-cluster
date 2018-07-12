@@ -12,7 +12,7 @@ item  :
 
   - title : control instance setup
     description : >
-      Once the control instance is running, this video shows how to finish the initial setup and demonstrates proper deletion
+      Once the control instance is running, this video shows how to finish the initial setup and demonstrates proper deletion. jdhldjkw kjdwkljekdwedjk kajdiewo
     videoID     : Yk4XfMZTtDo
     
   - title : elastic HPC environment creation
@@ -25,6 +25,11 @@ item  :
       Once the elastic HPC environment is created, this video shows how to pause it and reduce the cost to only storage charges while you don't need to compute.
     videoID     : uZk1Qkr0QBE
 
+  - title : enabling visual HPC
+    description : >
+      This video shows how to enable Visual HPC, automatic persistent VNC on a per user basis.
+    videoID     : dbrpBLkKBAU
+  
   - title : enabling visual HPC
     description : >
       This video shows how to enable Visual HPC, automatic persistent VNC on a per user basis.

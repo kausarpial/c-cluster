@@ -97,6 +97,16 @@ a:active {
   padding-top: 95px;
 }
 
+.clr{
+  overflow: auto;
+}
+
+.clr::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /*--
 	Header Start
 --*/

@@ -12,7 +12,7 @@
 	<section class="blog section">
 		<div class="container">
 			<div class="row">
-				{{ range (.Paginator 6).Pages }}
+				{{ range $index, $element:= (.Paginator 6).Pages }}
 				<div class="col-md-6">
 					<article class="blog-post">
 						{{ with .Params.image }}
@@ -25,6 +25,9 @@
 						<a href="{{ .Permalink }}" class="btn btn-main">Read More</a>
 					</article>
 				</div>
+				{{ if eq (mod $index 2) 1 }}
+                    <div class="clearfix visible-lg-block"></div>
+                {{ end }}
 				{{ end }}
 			</div>
 			<div class="col-12 text-center">
