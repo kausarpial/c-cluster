@@ -5,7 +5,7 @@
                 {{ with .Site.Params.feature.image }}<img src="{{ . }}" class="img-responsive" alt="feature-image">{{ end }}
             </div>
             <div class="col-md-7">
-                {{ with .Site.Params.feature.title }}<h3>{{ . }}</h3>{{ end }}
+                {{ with .Site.Params.feature.title }}<h2>{{ . }}</h2>{{ end }}
                 <p>
                     {{ .Site.Params.feature.content | safeHTML }}
                 </p>

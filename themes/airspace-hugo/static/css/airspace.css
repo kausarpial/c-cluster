@@ -46,11 +46,6 @@ p {
   font-size: 15px;
   line-height: 28px;
 }
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
 a,
 a:active,
 a:focus,
@@ -308,12 +303,9 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 #feature h2 {
+  text-transform: uppercase;
   font-size: 28px;
-  line-height: 35px;
-  font-weight: 300;
-  margin-bottom: 30px;
-  letter-spacing: 3px;
-  color: #E3E3E4;
+  font-weight: 600;
 }
 #feature p {
   color: #7B7B7B;
