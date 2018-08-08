@@ -9,10 +9,10 @@
 <meta name="robots" content="{{ with .Params.robots }}{{ . }}{{ else }}{{ .Site.Params.robots }}{{ end }}">
 {{ end }}
 
+<!-- Rss Feed -->
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://cloudycluster.com/blog/index.xml" />
 <!-- FAVICON -->
 <link href="{{ "img/favicon.ico" | absURL }}" rel="shortcut icon">
-<!-- Rss Feed -->
-<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https//cloudycluster.com/blog/index.xml" />
 <title>{{ .Title }}</title>
 
 {{ .Hugo.Generator }}
